@@ -1,0 +1,32 @@
+.main {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: medium;
+  cursor: pointer;
+}
+
+.solid {
+  color: #ffffff;
+  background-color: #00800090;
+}
+
+.solid:hover {
+  background-color: #008000;
+}
+
+.outline {
+  background-color: #ffffff;
+  color: #00800090;
+  border: 1px solid;
+}
+
+.ghost {
+  background-color: #ffffff;
+  color: #00800090;
+}
+
+.outline:hover,
+.ghost:hover {
+  color: #008000;
+}
