@@ -1,10 +1,11 @@
 "use client";
-import { TabBar, TabPane } from "@/_components/snippets/tabs";
-import { TabsRenderer } from "@/_components/tabs-renderer";
+
+import { SwitchRenderer } from "@/_components/switch-renderer";
+
 export default function Home() {
   return (
     <>
-      <TabsRenderer />
+      <SwitchRenderer />
     </>
   );
 }
